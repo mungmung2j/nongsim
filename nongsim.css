@@ -65,3 +65,15 @@ a{
 .mainIcon{
   height: 24px;
 }
+
+.new{
+  font-size:5px;
+  background-color: #cdd91c;
+  color:#111111;
+  line-height: 16px;
+  font-weight: 700;
+  padding: 0 3px;
+  margin-left: 3px;
+  border-radius: 8px;
+  position: absolute;
+}
