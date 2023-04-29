@@ -77,3 +77,22 @@ a{
   border-radius: 8px;
   position: absolute;
 }
+
+.newZ{
+  max-width: 100%;
+}
+
+.viewProduct{
+  display:flex;
+  justify-content: space-between;
+}
+
+.mainProduct{
+  margin:100px;
+}
+
+.only{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-flow: row nowrap;
+}
