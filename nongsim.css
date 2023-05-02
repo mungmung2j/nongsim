@@ -94,5 +94,20 @@ a{
 .only{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-auto-flow: row nowrap;
+  width: inherit;
+  gap:80px 20px;
+  width: auto;
+}
+
+.set{
+  grid-column-start:1;
+  grid-column-end: 3;
+}
+
+.production{
+  width: 100%;
+}
+
+.more{
+  text-align: center;
 }
