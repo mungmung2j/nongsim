@@ -111,3 +111,14 @@ a{
 .more{
   text-align: center;
 }
+
+.snack{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: inherit;
+}
+
+.snackSet{
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
