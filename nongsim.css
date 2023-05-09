@@ -8,6 +8,13 @@ a{
   color:inherit;
 }
 
+h2{
+  font-size:50px;
+  line-height: 1;
+  margin-bottom:25px;
+  margin-top:60px;
+}
+
 .miniMenu{
   display:flex;
   flex-flow:row nowrap;
@@ -85,6 +92,10 @@ a{
 .viewProduct{
   display:flex;
   justify-content: space-between;
+  margin-bottom: 60px;
+  font-size:20px;
+  font-weight: 500;
+  color:#666666;
 }
 
 .mainProduct{
@@ -94,7 +105,6 @@ a{
 .only{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
-  width: inherit;
   gap:80px 20px;
   width: auto;
 }
@@ -115,10 +125,40 @@ a{
 .snack{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  width: inherit;
+  width: auto;
 }
 
 .snackSet{
   grid-column-start: 3;
   grid-column-end: 5;
+  gap:80px 20px;
+}
+
+.AIProduct{
+  display:grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: auto;
+}
+
+.whiteBtn{
+  color:#999;
+  font-size:16px;
+  background: none;
+  height: 42px;
+  line-height: 42px;
+  padding:0 40px;
+  border-radius: 22px;
+  border:1px solid #eaeaea;
+}
+
+.redBtn{
+  color:white;
+  font-size:16px;
+  background: #c7002e;
+  height: 42px;
+  line-height: 42px;
+  padding:0 40px;
+  border-radius: 22px;
+  border:none;
+  margin-left: 10px;
 }
