@@ -99,7 +99,7 @@ h2{
 }
 
 .mainProduct{
-  margin:100px;
+  margin:140px 100px;
 }
 
 .only{
@@ -116,16 +116,20 @@ h2{
 
 .production{
   width: 100%;
+  margin-bottom: 30px;
+  border-radius: 12px;
 }
 
 .more{
   text-align: center;
+  margin: 40px 0;
 }
 
 .snack{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: auto;
+  margin-bottom: 140px;
 }
 
 .snackSet{
@@ -138,6 +142,7 @@ h2{
   display:grid;
   grid-template-columns: repeat(4, 1fr);
   width: auto;
+  margin-bottom: 140px;
 }
 
 .whiteBtn{
@@ -161,4 +166,83 @@ h2{
   border-radius: 22px;
   border:none;
   margin-left: 10px;
+}
+
+.moreBtn{
+  border-radius: 30px;
+  padding: 0 30px;
+  font-size:18px;
+  height: 60px;
+  line-height: 60px;
+  min-width: 140px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  margin-bottom: 140px;
+}
+
+.myNongsim{
+  font-size:20px;
+  font-weight:500;
+  color:#666666;
+  margin-bottom: 30px;
+}
+
+.swiperUl{
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.pink{
+  background-color: #fff5f7;
+  padding: 10px 0;
+  margin-bottom: 140px;
+}
+
+.newProduct{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.review{
+  display:flex;
+  flex-flow:column wrap;
+  width: 310px;
+  border-radius: 12px;
+  border:0.5px solid #d4d3d3;
+}
+
+.reviewProduction{
+  height: 218px;
+  width: 310px;
+  margin-bottom: 30px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.cupZ{
+  font-size:16px;
+  color:#666;
+  font-weight: 600;
+}
+
+.reviewZ{
+  font-size:16px;
+  color:#666;
+}
+
+.reviewD{
+  margin: 0px 20px 30px 20px;
+}
+
+.moreReview{
+  border-radius: 30px;
+  padding: 0 30px;
+  font-size:18px;
+  height: 60px;
+  line-height: 60px;
+  min-width: 140px;
+  background-color: #fff;
+  border: 1px solid #eaeaea;
+  margin-bottom: 140px;
 }
