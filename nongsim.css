@@ -116,8 +116,24 @@ h2{
 
 .production{
   width: 100%;
-  margin-bottom: 30px;
   border-radius: 12px;
+  background-color: #fff
+}
+
+.img{
+  margin-bottom: 30px;
+  position:relative;
+}
+
+.addCart{
+  bottom: 20px;
+  right: 20px;
+  position: absolute;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background-image:url(./assets/addCart.png);
+  background-repeat: no-repeat;
 }
 
 .more{
@@ -190,6 +206,7 @@ h2{
 .swiperUl{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  gap:20px
 }
 
 .pink{
