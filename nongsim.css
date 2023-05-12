@@ -188,13 +188,13 @@ h2{
 }
 
 .swiperUl{
-  display: flex;
-  flex-flow: row nowrap;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .pink{
   background-color: #fff5f7;
-  padding: 10px 0;
+  padding: 30px;
   margin-bottom: 140px;
 }
 
