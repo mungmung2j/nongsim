@@ -263,3 +263,14 @@ h2{
   border: 1px solid #eaeaea;
   margin-bottom: 140px;
 }
+
+.character{
+  width: 188px;
+  height: 176px;
+  background: url(/assets/character1.png);
+}
+
+.character.over{
+  background: url(/assets/character2.png);
+  background-size: 188px 176px;
+}
