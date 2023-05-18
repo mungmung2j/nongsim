@@ -1,0 +1,22 @@
+{
+  "name": "nongsim",
+  "version": "1.0.0",
+  "description": "농심 사이트 클론코딩",
+  "main": "nongsim.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mungmung2j/nongsim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mungmung2j/nongsim/issues"
+  },
+  "homepage": "https://github.com/mungmung2j/nongsim#readme",
+  "dependencies": {
+    "swiper": "^9.3.1"
+  }
+}

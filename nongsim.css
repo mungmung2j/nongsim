@@ -146,6 +146,7 @@ h2{
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width: auto;
   margin-bottom: 140px;
+  gap:80px 20px;
 }
 
 .snackSet{
@@ -159,6 +160,7 @@ h2{
   grid-template-columns: repeat(4, 1fr);
   width: auto;
   margin-bottom: 140px;
+  gap: 80px 20px;
 }
 
 .whiteBtn{
@@ -268,9 +270,27 @@ h2{
   width: 188px;
   height: 176px;
   background: url(/assets/character1.png);
+  background-size: contain;
 }
 
 .character.over{
   background: url(/assets/character2.png);
-  background-size: 188px 176px;
+}
+
+.production.over{
+  border:1px solid #c7002e;
+}
+
+.swiper{
+  background-color: #fff5f7;
+  padding: 30px;
+  margin-bottom: 140px;
+}
+
+.swiper-wrapper{
+  display: flex;
+  flex-flow:row nowrap;
+  gap:20px;
+  padding:30px;
+  
 }
