@@ -294,3 +294,7 @@ h2{
   padding:30px;
   
 }
+
+.swiper-slide{
+  display: flex;
+}

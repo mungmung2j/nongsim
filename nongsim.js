@@ -62,4 +62,36 @@ const swiper = new Swiper('.swiper', {
   scrollbar: {
     
   },
+
+  
+});
+
+const secondSwiper = new Swiper('.secondSwiper', {
+  // Optional parameters
+  loop: true,
+  slidesPerView: 1,  
+  slidesPerGroup: 1,
+  
+  autoplay: {     //자동슬라이드 (false-비활성화)
+    delay: 2500, // 시간 설정
+    disableOnInteraction: true, // false-스와이프 후 자동 재생
+  },
+  
+
+  // If we need pagination
+  pagination: {
+    
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+  // And if we need scrollbar
+  scrollbar: {
+    
+  },
+
 });
