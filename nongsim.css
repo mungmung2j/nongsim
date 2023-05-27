@@ -281,20 +281,74 @@ h2{
   border:1px solid #c7002e;
 }
 
+/* 공통 css */
+
+
+/* 스와이퍼 */
+
 .swiper{
   background-color: #fff5f7;
   padding: 30px;
   margin-bottom: 140px;
 }
 
-.swiper-wrapper{
+.swiper .swiper-wrapper{
   display: flex;
   flex-flow:row nowrap;
-  gap:20px;
-  padding:30px;
   
 }
 
-.swiper-slide{
+.swiper .swiper-slide{
   display: flex;
+}
+
+.swiper .swiper-slide .slide-context-wrap{
+  padding: 20px;
+}
+
+.secondSwiper .swiper-button-prev{
+  display: block;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: 5px;
+    width: 30px;
+    height: 30px;
+    background-size: auto 12px;
+    background-image: url(/assets/main-visual__icon--prev.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 1px;
+    text-indent: -9999vw;
+    color: transparent;
+}
+
+.secondSwiper .swiper-button-next{
+  display: block;
+    position: absolute;
+    top: calc(50% - 15px);
+    left: auto;
+    width: 30px;
+    height: 30px;
+    background-size: auto 12px;
+    background-image: url(/assets/main-visual__icon--next.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    font-size: 1px;
+    text-indent: -9999vw;
+    color: transparent;
+}
+
+.secondSwiper .swiper-controller{
+  position: absolute;
+    top: 500px;
+    right: calc(50% - var(1400px) / 2);
+    min-width: 120px;
+    height: 40px;
+    padding: 0 40px;
+    text-align: center;
+    background-color: #0003;
+    border-radius: 20px;
+    z-index: 1;
+    font-size: 0;
+    white-space: nowrap;
 }
