@@ -1,3 +1,5 @@
+/* 공통 css */
+
 *{
   list-style: none;
   padding: 0;
@@ -14,6 +16,8 @@ h2{
   margin-bottom:25px;
   margin-top:60px;
 }
+
+/* Header css */
 
 .miniMenu{
   display:flex;
@@ -85,6 +89,7 @@ h2{
   position: absolute;
 }
 
+/* main css */
 .newZ{
   max-width: 100%;
 }
@@ -136,10 +141,6 @@ h2{
   background-repeat: no-repeat;
 }
 
-.more{
-  text-align: center;
-  margin: 40px 0;
-}
 
 .snack{
   display:grid;
@@ -163,6 +164,21 @@ h2{
   gap: 80px 20px;
 }
 
+
+.myNongsim{
+  font-size:20px;
+  font-weight:500;
+  color:#666666;
+  margin-bottom: 30px;
+}
+
+.newProduct{
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+/* button css */
 .whiteBtn{
   color:#999;
   font-size:16px;
@@ -186,6 +202,11 @@ h2{
   margin-left: 10px;
 }
 
+.more{
+  text-align: center;
+  margin: 40px 0;
+}
+
 .moreBtn{
   border-radius: 30px;
   padding: 0 30px;
@@ -198,30 +219,7 @@ h2{
   margin-bottom: 140px;
 }
 
-.myNongsim{
-  font-size:20px;
-  font-weight:500;
-  color:#666666;
-  margin-bottom: 30px;
-}
-
-.swiperUl{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  gap:20px
-}
-
-.pink{
-  background-color: #fff5f7;
-  padding: 30px;
-  margin-bottom: 140px;
-}
-
-.newProduct{
-  display:flex;
-  flex-flow: row nowrap;
-  justify-content: space-between;
-}
+/* 리뷰 */
 
 .review{
   display:flex;
@@ -266,6 +264,8 @@ h2{
   margin-bottom: 140px;
 }
 
+/* 캐릭터 */
+
 .character{
   width: 188px;
   height: 176px;
@@ -280,8 +280,6 @@ h2{
 .production.over{
   border:1px solid #c7002e;
 }
-
-/* 공통 css */
 
 
 /* 스와이퍼 */
