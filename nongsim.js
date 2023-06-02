@@ -1,3 +1,5 @@
+//캐릭터
+
 const character=document.querySelector('.character')
 
 character.addEventListener('mouseover', function(){
@@ -7,6 +9,9 @@ character.addEventListener('mouseover', function(){
 character.addEventListener('mouseleave', function(){
   character.classList.remove('over')
 })
+
+
+//상품 테두리
 
 const border=document.querySelectorAll('.production')
 // ['.production1', '.production2']
@@ -25,15 +30,7 @@ for (let i=0; i<border.length; i++){
 }
 
 
-// var mySwiper=new Swiper('.swiper-container',{
-//   direction: 'vertical',
-//   loop: true,
-
-//   navigation:{
-//     nextEl:'.swiper-button-next',
-//     prevEl:'.swiper-button-prev',
-//   }
-// })
+//스와이퍼
 
 const swiper = new Swiper('.swiper', {
   // Optional parameters
@@ -95,3 +92,12 @@ const secondSwiper = new Swiper('.secondSwiper', {
   },
 
 });
+
+
+//팝업창
+const popup_close=document.querySelector('x_button')
+const popup=document.querySelector('.popup')
+
+popup_close.addEventListener('click', function(){
+  popup.classList.add('click');
+})
