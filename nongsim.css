@@ -392,6 +392,10 @@ h2{
   z-index: 2;
 }
 
-.popup .click{
+.popup_background.click{
+  display:none;
+}
+
+.popup.click{
   display:none;
 }

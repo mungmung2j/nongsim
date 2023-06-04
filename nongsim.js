@@ -95,9 +95,11 @@ const secondSwiper = new Swiper('.secondSwiper', {
 
 
 //팝업창
-const popup_close=document.querySelector('x_button')
+const popup_close=document.querySelector('.x_button')
 const popup=document.querySelector('.popup')
+const popup_back=document.querySelector('.popup_background')
 
 popup_close.addEventListener('click', function(){
   popup.classList.add('click');
+  popup_back.classList.add('click');
 })
