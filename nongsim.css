@@ -307,7 +307,7 @@ h2{
 .secondSwiper .swiper-button-prev{
   display: block;
     position: absolute;
-    top: calc(50% - 15px);
+    top: calc(65%);
     left: 5px;
     width: 30px;
     height: 30px;
@@ -323,7 +323,7 @@ h2{
 .secondSwiper .swiper-button-next{
   display: block;
     position: absolute;
-    top: calc(50% - 15px);
+    top: calc(65% );
     left: auto;
     width: 30px;
     height: 30px;
@@ -338,8 +338,8 @@ h2{
 
 .secondSwiper .swiper-controller{
   position: absolute;
-    top: 500px;
-    right: calc(50% - var(1400px) / 2);
+    top: 600px;
+    right: calc(10%);
     min-width: 120px;
     height: 40px;
     padding: 0 40px;
@@ -347,8 +347,16 @@ h2{
     background-color: #0003;
     border-radius: 20px;
     z-index: 1;
-    font-size: 0;
     white-space: nowrap;
+    display: flex;
+    justify-content:center;
+}
+
+
+
+.swiper-pagination{
+  color:white !important;
+  margin-bottom: 3px;
 }
 
 /* 팝업 */

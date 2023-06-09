@@ -38,10 +38,10 @@ const swiper = new Swiper('.swiper', {
   slidesPerView: 4,  
   slidesPerGroup: 1,
   
-  //autoplay: {     //자동슬라이드 (false-비활성화)
-  //  delay: 2500, // 시간 설정
-  //  disableOnInteraction: true, // false-스와이프 후 자동 재생
-  //},
+  autoplay: {     //자동슬라이드 (false-비활성화)
+    delay: 2500, // 시간 설정
+    disableOnInteraction: true, // false-스와이프 후 자동 재생
+  },
   
 
   // If we need pagination
@@ -77,7 +77,8 @@ const secondSwiper = new Swiper('.secondSwiper', {
 
   // If we need pagination
   pagination: {
-    
+    el: ".swiper-pagination",
+    type: "fraction",
   },
 
   // Navigation arrows
@@ -92,6 +93,7 @@ const secondSwiper = new Swiper('.secondSwiper', {
   },
 
 });
+
 
 
 //팝업창
